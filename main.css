@@ -10,6 +10,10 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
+
 .flex-area{
     display: flex;
     margin-bottom: 100px;
@@ -43,4 +47,38 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area{
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+.experience-item{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 30px rgb(114, 114, 114);
+    
+}
+
+#web-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    
+}
+#Junior-web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 72, 0),rgb(255, 238, 0));
+    border-image-slice: 1;
+
+}
+
+footer p{
+    text-align: center;
 }
